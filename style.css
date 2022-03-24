@@ -1,0 +1,107 @@
+body,html{
+
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("6.jpg");
+    
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+img {
+
+    margin-top: 0px;
+    height: 300px;
+    width: 320px;
+    border: 2px solid #ffffff;
+    border-radius:800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.6s;
+        
+           
+}
+.introtext{
+
+    font-family: Verdana;
+    font-size: 60px;
+    margin-bottom: 2px;
+    color: #ffffff;
+    text-align: center;
+}
+.bottomtext{
+
+    font-family: cursive;
+    margin-top: 30px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    border: 1px cyan;
+}
+.btn-group{
+    display: block;
+    text-align: center;
+    margin-top:50px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+b:link, b:visited{
+    background-color: blue;
+    font-size: 20px;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+b:hover,b:active{
+    background-color: blue;
+    color: black;
+
+}
+.blogs{
+    background-color: skyblue;
+    font-size: 20px;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+.blogs:hover{
+    background-color: blue;
+    color: black;
+}
+
+
+.gallery{
+    background-color: skyblue;
+    font-size: 20px;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    align-self: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+.gallery:hover{
+    background-color: blue;
+    color: black;
+}
+    
+
